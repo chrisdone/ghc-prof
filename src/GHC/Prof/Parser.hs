@@ -6,7 +6,7 @@
 {-# LANGUAGE LambdaCase #-}
 module GHC.Prof.Parser
   ( profile
-
+  , HeaderParams(..)
   , timestamp
   , title
   , commandLine
