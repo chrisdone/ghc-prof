@@ -9,6 +9,7 @@ module GHC.Prof.Parser
   , HeaderParams(..)
   , timestamp
   , title
+  , header
   , commandLine
   , totalTime
   , totalAlloc
