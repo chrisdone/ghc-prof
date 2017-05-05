@@ -4,20 +4,7 @@
 {-# LANGUAGE RecordWildCards #-}
 {-# LANGUAGE NamedFieldPuns #-}
 {-# LANGUAGE LambdaCase #-}
-module GHC.Prof.Parser
-  ( profile
-  , HeaderParams(..)
-  , timestamp
-  , title
-  , header
-  , commandLine
-  , totalTime
-  , totalAlloc
-  , topCostCentres
-  , aggregatedCostCentre
-  , costCentres
-  , costCentre
-  ) where
+module GHC.Prof.Parser where
 import Control.Applicative
 import Control.Monad
 import Data.Char (isDigit, isSpace)
